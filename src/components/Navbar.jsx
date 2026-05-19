@@ -5,7 +5,20 @@ function Navbar({ darkMode, setDarkMode }) {
   return (
     <nav>
 
-      <h2>Dewansh Ranbir</h2>
+      <div className="nav-top">
+
+        <button
+          className="theme-btn"
+          onClick={() => setDarkMode(!darkMode)}
+        >
+          {darkMode ? '☀️' : '🌙'}
+        </button>
+
+        <h2>Dewansh Ranbir</h2>
+
+        <div></div>
+
+      </div>
 
       <ul>
 
@@ -26,13 +39,6 @@ function Navbar({ darkMode, setDarkMode }) {
         </li>
 
       </ul>
-
-      <button
-        className="theme-btn"
-        onClick={() => setDarkMode(!darkMode)}
-      >
-        {darkMode ? '☀️' : '🌙'}
-      </button>
 
     </nav>
   )
