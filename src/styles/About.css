@@ -1,0 +1,37 @@
+.about {
+  padding: 80px 20px;
+
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+
+  color: inherit;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+
+  font-size: 18px;
+  line-height: 1.8;
+
+  color: inherit;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .about h2 {
+    font-size: 32px;
+  }
+
+  .about p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+}

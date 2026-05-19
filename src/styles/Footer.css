@@ -1,0 +1,37 @@
+.footer {
+  background-color: black;
+  color: white;
+
+  padding: 20px;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 6px;
+}
+
+.footer h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .footer h3 {
+    font-size: 18px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+}

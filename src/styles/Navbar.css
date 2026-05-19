@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 60px;
+
+  background-color: black;
+  color: white;
+
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
+}
+
+nav h2 {
+  font-size: 32px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+
+  gap: 40px;
+
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  transition: 0.3s;
+}
+
+a:hover {
+  color: gray;
+}
+
+.theme-btn {
+  border: none;
+  background: none;
+
+  font-size: 24px;
+
+  cursor: pointer;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+  nav {
+    padding: 20px;
+  }
+
+  nav h2 {
+    font-size: 22px;
+  }
+
+  ul {
+    gap: 15px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  .theme-btn {
+    font-size: 20px;
+  }
+
+}
